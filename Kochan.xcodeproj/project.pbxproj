@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7BBEABBF1D68C88D00133246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBEABBE1D68C88D00133246 /* main.m */; };
 		7BBEABC71D68C8BE00133246 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBEABC61D68C8BE00133246 /* Calculator.m */; };
-		7BBEABC91D68D28200133246 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7BBEABC81D68D28200133246 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +28,6 @@
 		7BBEABBE1D68C88D00133246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BBEABC51D68C8BE00133246 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		7BBEABC61D68C8BE00133246 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
-		7BBEABC81D68D28200133246 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				7BBEABBE1D68C88D00133246 /* main.m */,
 				7BBEABC51D68C8BE00133246 /* Calculator.h */,
 				7BBEABC61D68C8BE00133246 /* Calculator.m */,
-				7BBEABC81D68D28200133246 /* README.md */,
 			);
 			path = Kochan;
 			sourceTree = "<group>";
@@ -126,7 +123,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BBEABC91D68D28200133246 /* README.md in Sources */,
 				7BBEABBF1D68C88D00133246 /* main.m in Sources */,
 				7BBEABC71D68C8BE00133246 /* Calculator.m in Sources */,
 			);
