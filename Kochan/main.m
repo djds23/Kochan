@@ -7,11 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Calculator.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        int number;
+        Calculator *calc = [[Calculator alloc] init];
+        [calc setAccumulator:100.0];
+        for (int i = 1; i< 3; i++) {
+            [calc multiply:i];
+        }
+        NSLog(@"Final Number");
+        scanf("%i", &number);
+        [calc add:(double) number];
+        double output = [calc accumulator];
+        NSLog(@"accumulated %g", output);
     }
     return 0;
 }
