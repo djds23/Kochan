@@ -13,6 +13,20 @@
     double accumulator;
 }
 
+-(double) evaluateFromString:(double)valueOne operator:(char)op valueTwo:(double)valueTwo {
+    [self setAccumulator:valueOne];
+    if (op == '+') {
+        [self add:valueTwo];
+    } else if (op == '-') {
+        [self subtract:valueTwo];
+    } else if (op == '*') {
+        [self multiply:valueTwo];
+    } else if (op == '/') {
+        [self divide:valueTwo];
+    }
+    return [self accumulator];
+}
+
 -(double) accumulator {
     return accumulator;
 }

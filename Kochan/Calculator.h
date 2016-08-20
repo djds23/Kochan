@@ -13,7 +13,7 @@
 -(void) setAccumulator: (double) value;
 -(void) clear;
 -(double) accumulator;
-
+-(double) evaluateFromString:(double)valueOne operator:(char)op valueTwo:(double)valueTwo;
 -(void) add: (double) value;
 -(void) subtract: (double) value;
 -(void) multiply: (double) value;
