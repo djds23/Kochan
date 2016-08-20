@@ -15,14 +15,23 @@
 
 -(double) evaluateFromString:(double)valueOne operator:(char)op valueTwo:(double)valueTwo {
     [self setAccumulator:valueOne];
-    if (op == '+') {
-        [self add:valueTwo];
-    } else if (op == '-') {
-        [self subtract:valueTwo];
-    } else if (op == '*') {
-        [self multiply:valueTwo];
-    } else if (op == '/') {
-        [self divide:valueTwo];
+    switch (op) {
+        case '+': {
+            [self add:valueTwo];
+            break;
+        }
+        case '-': {
+            [self subtract:valueTwo];
+            break;
+        }
+        case '*': {
+            [self multiply:valueTwo];
+            break;
+        }
+        case '/': {
+            [self divide:valueTwo];
+            break;
+        }
     }
     return [self accumulator];
 }
